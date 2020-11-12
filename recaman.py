@@ -33,7 +33,7 @@ seen = set()  # Here's where we'll keep track of where we've been
 for step_size in range(1, 100):
     if step_size % 5 == 0:
         euler.color("red", "red")
-        euler.stamp()
+        #euler.stamp()
         euler.color("green", "green")
     backwards = current - step_size
 
