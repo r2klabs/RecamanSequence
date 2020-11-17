@@ -17,7 +17,7 @@ euler = turtle.Turtle()  # A good mathy name for our turtle
 euler.shape("circle")
 euler.shapesize(0.5, 0.5, 0.5)
 euler.color("green", "green")
-euler.pencolor("red")
+euler.pencolor("purple")
 
 scale = 3  # This isn't a turtle module setting.  This is just for us.
 
